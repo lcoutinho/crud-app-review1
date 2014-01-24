@@ -1,0 +1,17 @@
+<table id="menu">
+
+	<thead>
+		<td>Meal Selection</td>
+		<td>Price</td>
+	</thead>
+
+	<tbody>
+		<% @meals.each do |meal| %>
+		<tr>
+			<td><%= meal.name %></td>
+			<td><%= meal.price %></td>
+		</tr>
+		<% end %>
+	</tbody>
+
+</table>

@@ -1,0 +1,16 @@
+body {
+	background-color: skyblue;
+	margin: 20px;
+	width: 100%;
+}
+
+table, td, tr {
+	border: 1px solid black;
+	margin: 0 auto;
+	padding: 3px;
+	text-align: center;
+}
+
+thead {
+	font-weight: bold;
+}
