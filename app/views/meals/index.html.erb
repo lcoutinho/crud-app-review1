@@ -8,9 +8,11 @@
 	<tbody>
 		<% @meals.each do |meal| %>
 		<tr>
-			<td><%= meal.name %></td>
+			<td><%= link_to meal.name, meal_path(meal) %></td>
 			<td><%= meal.price %></td>
 		</tr>
 		<% end %>
 	</tbody>
 </table>
+
+<%= link_to "Add Menu Item", new_meal_path %>

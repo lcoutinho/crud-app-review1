@@ -5,7 +5,7 @@ class MealsController < ApplicationController
 	end
 
 	def new
-		@meals = Meal.new
+		@meal = Meal.new
 	end
 
 	def create
@@ -29,7 +29,7 @@ class MealsController < ApplicationController
 
 	def destroy
 		@meal = Meal.find(params[:id])
-		@game.destroy
+		@meal.destroy
 		redirect_to '/'
 	end
 end

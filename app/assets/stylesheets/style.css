@@ -26,3 +26,13 @@ td, tr {
 thead {
 	font-weight: bold;
 }
+
+form {
+	border: 1px solid white;
+	margin: auto;
+	width: 220px;
+}
+
+.form-div label {
+	margin: 10px 0;
+}

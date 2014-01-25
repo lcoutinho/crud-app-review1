@@ -1,0 +1,18 @@
+<%= form_for meal do |f| %>
+	<div class="form-div">
+		<%= f.label :name %>
+		<div class="field">
+			<%= f.text_field :name %>
+		</div>
+	</div>
+	<div class="form-div">
+		<%= f.label :price %>
+		<div class="field">
+			<%= f.text_field :price %>
+		</div>
+	</div>
+	<div class="form-div">
+		<%= f.submit %>
+	</div>
+<% end %>
+
